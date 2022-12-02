@@ -1,0 +1,161 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  min-width: 300px;
+}
+
+/* Styling the header  */
+header {
+  text-align: center;
+  background-color: #70cce3;
+  padding: 10px;
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+main > h2 {
+  margin-top: 0;
+}
+
+/*Styling the main content*/
+
+main {
+  margin-top: 0;
+  background: linear-gradient(#ffffff, #fafdff);
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/*Styling elements of main content*/
+
+.login {
+  text-align: center;
+  min-height: 80%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login > ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  padding: 20px 25px;
+  background-color: #353535;
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #ffffff;
+  color: #353535;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/*Styling Form*/
+.cred {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+}
+
+/*Styling Form elements*/
+.cred * {
+  margin: 10px auto;
+}
+
+.cred input {
+  padding: 10px;
+}
+
+button {
+  font-size: 18px;
+  border: none;
+  padding: 20px 25px;
+  background-color: #f65543;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #353535;
+  text-decoration: underline;
+  /* font-weight: 600; */
+  cursor: pointer;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tablink {
+  background-color: #868a8b;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 25px 15px;
+}
+
+.content {
+  background-color: #ffffff;
+  height: 60vh;
+  overflow: auto;
+  width: 75vw;
+  text-align: center;
+}
+.tab-content {
+  display: none;
+}
+
+.content button {
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+}
+
+/*Admin Search*/
+
+table,
+th,
+td {
+  margin: auto;
+  border: 1px solid;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result > * {
+  margin: 15px 10px;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+}
+
+.warn {
+  color: red;
+}
